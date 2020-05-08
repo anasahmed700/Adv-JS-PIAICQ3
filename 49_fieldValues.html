@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Field Values</title>
+</head>
+
+<body>
+    <!-- 49: Reading field value  -->
+    <form onsubmit="checkAddress('email')">
+        Email:
+        <input type="text" id="email">
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- 50: setting field value  -->
+    <form>
+        ZIP:<br>
+        <input type="text" id="zip" onBlur="fillCity();"><br>
+        City:<br>
+        <input type="text" id="city">
+    </form>
+
+
+    <script src="49_fieldValues.js"></script>
+</body>
+
+</html>
